@@ -1,0 +1,32 @@
+{
+    "project_id": 21665871822,
+    "key": "fdshfdsjkfds",
+    "name": "fshdjjfhdjskf",
+    "description": "description",
+    "type": "multivariate",
+    "holdback": 0,
+    "audience_conditions": "everyone",
+    "feature_key": "big_bucket",
+    "metrics": [
+        {
+        "aggregator": "count",
+        "event_id": 21684210616,
+        "scope": "session",
+        "winning_direction": "increasing"
+        }
+    ],
+      "variations": [
+            {
+            "actions": [],
+            "archived": true,
+            "description": "string",
+            "feature_enabled": true,
+            "key": "blue_button_variation",
+            "name": "Blue Button",
+            "status": "active",
+            "variable_values": {},
+            "variation_id": 0,
+            "weight": 10000
+            }
+    ]
+}
